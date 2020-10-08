@@ -7,7 +7,7 @@ If the boolean is True, then the larger number is the hypotenuse
 Return the missing side
 (2 points)
 """
-def hypotenuse(list):
+def hypotenuse(c,a,b):
     #inputs
     #a = float
     #b = float

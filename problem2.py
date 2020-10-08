@@ -11,8 +11,8 @@ import math
 
 def distance(coor1,coor2):
     #inputs
-    #tuple1 =(x1,y1)
-    #tuple2 =(x2,y2)
+    #tuple1 =(a,b)
+    #tuple2 =(c,d)
     #return is distance between coordinates
     a=coor1[0]
     b=coor1[1]
@@ -20,10 +20,18 @@ def distance(coor1,coor2):
     d=coor2[1]
     x=a-c
     y=b-d
-    dist=(x**2 + y**2)**(1/2)
-    dist=round(dist,3)
-    return dist
-
-num=distance((2,3),(5,6))
-print(num)
-
+    distance=float((x**2 + y**2)**(1/2))
+    distance = round(distance,3)
+    return distance
+coor1=[]
+coor2=[]
+a=int(input("Enter x value: "))
+coor1.append(a)
+b=int(input("Enter y value: "))
+coor1.append(b)
+c=int(input("Enter x value: "))
+coor2.append(c)
+d=int(input("Enter y value: "))
+coor2.append(d)
+x = distance(coor1,coor2)
+print(x)

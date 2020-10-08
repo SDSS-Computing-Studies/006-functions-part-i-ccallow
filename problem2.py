@@ -20,11 +20,10 @@ def distance(coor1,coor2):
     d=coor2[1]
     x=a-c
     y=b-d
-    distance=float((x**2 + y**2)**(1/2))
-    distance = round(distance,3)
+    distance= (x**2 + y**2)**(1/2)
     return distance
 
-    
+
 coor1=[]
 coor2=[]
 a=int(input("Enter x value: "))

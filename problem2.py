@@ -23,7 +23,7 @@ def distance(coor1,coor2):
     distance= (x**2 + y**2)**(1/2)
     return distance
 
-
+"""
 coor1=[]
 coor2=[]
 a=int(input("Enter x value: "))
@@ -36,3 +36,4 @@ d=int(input("Enter y value: "))
 coor2.append(d)
 x = distance(coor1,coor2)
 print(x)
+"""

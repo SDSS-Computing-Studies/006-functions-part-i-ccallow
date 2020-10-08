@@ -10,5 +10,3 @@ def sum(a,b):
 
 
 
-x = sum(a,b)
-print(x)

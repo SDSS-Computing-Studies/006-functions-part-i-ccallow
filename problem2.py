@@ -23,6 +23,8 @@ def distance(coor1,coor2):
     distance=float((x**2 + y**2)**(1/2))
     distance = round(distance,3)
     return distance
+
+    
 coor1=[]
 coor2=[]
 a=int(input("Enter x value: "))

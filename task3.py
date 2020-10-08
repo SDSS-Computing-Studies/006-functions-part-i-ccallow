@@ -14,6 +14,8 @@ def perimeter(myList):
     x = sum(myList)
     return x
 
+"""
 a = [3, 6, 9, 6]
 b = perimeter(a)
 print(b)
+"""

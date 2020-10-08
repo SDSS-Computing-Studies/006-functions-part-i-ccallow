@@ -17,6 +17,8 @@ def isInteger(x):
         return False
     
 
+"""
 a = float(input("Enter a number: "))
 b = isInteger(a)
 print(b)
+"""

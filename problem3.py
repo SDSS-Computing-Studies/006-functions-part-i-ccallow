@@ -14,6 +14,8 @@ def factors(x):
     #output
     #sorted list of factors
 
+"""
 x = int(input("Enter a number: "))
 a = factors(x)
 print(a)
+"""

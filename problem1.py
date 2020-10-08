@@ -24,8 +24,10 @@ def hypotenuse(list):
             x = math.sqrt((b**2)-(a**2))
             return x
 
+"""
 a = float(input("Enter a number: "))
 b = float(input("Enter a number: "))
 c = input("True or False: ")
 x= hypotenuse(c)
 print(x)
+"""

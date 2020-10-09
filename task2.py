@@ -11,7 +11,7 @@ def largest(myList):
     #myList = list
     # #return value is largest number
     myList.sort()
-    x = str(myList[-1])
+    x = myList[-1]
     return x
 
 """

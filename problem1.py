@@ -7,22 +7,25 @@ If the boolean is True, then the larger number is the hypotenuse
 Return the missing side
 (2 points)
 """
+import math 
 def hypotenuse(a,b,c):
     #inputs
     #a = float
     #b = float
     # x =True or False
-    import math 
-    if c == "True":
-        x = math.sqrt((a**2) + (b**2))
-        return x
-    if c == "False":
+    if c ==True:
+        x = (a**2) + (b**2)
+        y = int(math.sqrt(x))
+        return y
+    elif c == False:
         if a>b:
-            x = math.sqrt((a**2)-(b**2))
-            return x
+            x = (a**2)-(b**2)
+            y = int(math.sqrt(x))
+            return y
         elif b>a:
-            x = math.sqrt((b**2)-(a**2))
-            return x
+            x = (b**2)-(a**2)
+            y = math.sqrt (x)
+            return y
 
 """
 a = float(input("Enter a number: "))
